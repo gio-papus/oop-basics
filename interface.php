@@ -1,6 +1,6 @@
 <?php
 interface operacion{
-public sell(int $sell):int;
-public inStock(int $stock):int;
+public function sell(int $sell):int;
+public function inStock(int $stock):int;
 }
 
